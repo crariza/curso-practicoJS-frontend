@@ -276,12 +276,13 @@ nav {
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    cursor: pointer;
 }
 .cards-container .product-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12px;
+    margin: 12px 0 0 0;
 }
 .cards-container .product-info figure {
     margin: 0;
@@ -308,6 +309,7 @@ nav {
     width: 360px;
     position: absolute;
     right: 0;
+    background-color: var(--white);
 }
 
 .product-aside-close {
@@ -401,6 +403,9 @@ nav {
     .product-card img {
         width: 140px;
         height: 140px;
+    }
+    .product-aside {
+        width: 100%;
     }
 }
 
